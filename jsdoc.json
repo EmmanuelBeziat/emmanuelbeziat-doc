@@ -1,0 +1,21 @@
+{
+  "source": {
+    "include": [
+      "src"
+    ],
+    "includePattern": ".+\\.(js|jsx|ts|tsx|vue)$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "opts": {
+    "destination": "/Users/Emmanuel/Sites/emmanuelbeziat-doc/docs",
+    "recurse": true,
+    "template": "templates/default"
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  }
+}

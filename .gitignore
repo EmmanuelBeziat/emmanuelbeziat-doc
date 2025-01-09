@@ -1,0 +1,16 @@
+/docs
+/node_modules
+/dist
+/build
+/public
+/static
+/temp
+/tmp
+/cache
+/logs
+/reports
+/coverage
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

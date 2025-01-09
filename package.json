@@ -1,0 +1,38 @@
+{
+  "name": "emmanuelbeziat-doc",
+  "version": "1.0.0",
+  "description": "📝 Documentation generator for projects",
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "documentation",
+    "jsdocumentation",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/EmmanuelBeziat/emmanuelbeziat-doc#readme",
+  "bugs": {
+    "url": "https://github.com/EmmanuelBeziat/emmanuelbeziat-doc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelBeziat/emmanuelbeziat-doc.git"
+  },
+  "license": "ISC",
+  "author": "contact@emmanuelbeziat.com",
+  "main": "src/index.js",
+  "bin": {
+    "docgen": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "glob": "^11.0.0",
+    "jsdoc": "^4.0.4",
+    "simple-git": "^3.27.0",
+    "vuepress": "^2.0.0-rc.19"
+  }
+}
