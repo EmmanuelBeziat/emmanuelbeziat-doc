@@ -4,9 +4,14 @@ import { join } from 'path'
 
 vi.mock('../src/generators/BaseGenerator.js', () => ({
 	BaseGenerator: class {
-		constructor() {
+		constructor(projectPath, options) {
+			this.projectPath = projectPath
+			this.options = options
 			this.runCommand = vi.fn()
 			this.writeConfig = vi.fn()
+		}
+		getOutputPath() {
+			return join(this.projectPath, this.options.output || 'docs')
 		}
 	},
 }))
