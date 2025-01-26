@@ -36,6 +36,6 @@
     "vuepress": "^2.0.0-rc.19"
   },
   "devDependencies": {
-    "vitest": "^3.0.3"
+    "vitest": "^3.0.4"
   }
 }
