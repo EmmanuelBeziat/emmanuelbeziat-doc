@@ -29,13 +29,13 @@
   },
   "dependencies": {
     "chalk": "^5.4.1",
-    "commander": "^13.1.0",
+    "commander": "^14.0.0",
     "glob": "^11.0.2",
     "jsdoc": "^4.0.4",
     "simple-git": "^3.27.0",
     "vuepress": "^2.0.0-rc.19"
   },
   "devDependencies": {
-    "vitest": "^3.1.2"
+    "vitest": "^3.1.4"
   }
 }
