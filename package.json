@@ -28,10 +28,10 @@
     "test": "npx vitest --run"
   },
   "dependencies": {
-    "chalk": "^5.6.0",
-    "commander": "^14.0.0",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
     "glob": "^11.0.3",
-    "jsdoc": "^4.0.4",
+    "jsdoc": "^4.0.5",
     "simple-git": "^3.28.0",
     "vuepress": "^2.0.0-rc.19"
   },
