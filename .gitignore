@@ -15,6 +15,11 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
+# Environment
+.env
+.env.*
+!.env.example
+
 # LLM
 AGENTS.md
 CLAUDE.md
